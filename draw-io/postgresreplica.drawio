@@ -1,0 +1,37 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36" version="28.2.8">
+  <diagram name="Page-1" id="iBv_e5szA13q4fdBiQbJ">
+    <mxGraphModel dx="1336" dy="695" grid="1" gridSize="5" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="gmudOQDiAcLR5Y-OL8rV-15" value="" style="shape=ext;double=1;rounded=1;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
+          <mxGeometry x="320" y="73" width="390" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="gmudOQDiAcLR5Y-OL8rV-18" value="&lt;div&gt;&lt;div&gt;HSE Azure Tenant&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="200" y="65" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gmudOQDiAcLR5Y-OL8rV-22" value="" style="shape=ext;double=1;rounded=1;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
+          <mxGeometry x="324.25" y="650" width="390" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="gmudOQDiAcLR5Y-OL8rV-23" value="&lt;div&gt;Postgres Read-only replica&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/databases/SQL_Server.svg;" parent="1" vertex="1">
+          <mxGeometry x="480.25" y="680.5" width="68" height="68" as="geometry" />
+        </mxCell>
+        <mxCell id="gmudOQDiAcLR5Y-OL8rV-29" value="" style="endArrow=none;dashed=1;html=1;rounded=0;startSize=60;strokeWidth=2;entryX=0.43;entryY=0.995;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#3399FF;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="506" y="678.5" as="sourcePoint" />
+            <mxPoint x="503.70000000000005" y="295" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gmudOQDiAcLR5Y-OL8rV-31" value="&lt;div&gt;Azure Network Backbone&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="532.25" y="485" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gmudOQDiAcLR5Y-OL8rV-37" value="Near realtime replication" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;rotation=-90;" parent="1" vertex="1">
+          <mxGeometry x="375" y="485" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-DRmpvns1d9b858OmcKD-2" value="&lt;div&gt;&lt;div&gt;Conduent Azure Tenant&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="200" y="610" width="160" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
