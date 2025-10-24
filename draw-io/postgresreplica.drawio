@@ -5,31 +5,61 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="gmudOQDiAcLR5Y-OL8rV-15" value="" style="shape=ext;double=1;rounded=1;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
-          <mxGeometry x="320" y="73" width="390" height="300" as="geometry" />
+          <mxGeometry x="320" y="73" width="400" height="307" as="geometry" />
         </mxCell>
         <mxCell id="gmudOQDiAcLR5Y-OL8rV-18" value="&lt;div&gt;&lt;div&gt;HSE Azure Tenant&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="200" y="65" width="160" height="30" as="geometry" />
         </mxCell>
         <mxCell id="gmudOQDiAcLR5Y-OL8rV-22" value="" style="shape=ext;double=1;rounded=1;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
-          <mxGeometry x="324.25" y="650" width="390" height="300" as="geometry" />
+          <mxGeometry x="315" y="645" width="425" height="310" as="geometry" />
         </mxCell>
-        <mxCell id="gmudOQDiAcLR5Y-OL8rV-23" value="&lt;div&gt;Postgres Read-only replica&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/databases/SQL_Server.svg;" parent="1" vertex="1">
+        <mxCell id="gmudOQDiAcLR5Y-OL8rV-23" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/databases/SQL_Server.svg;" parent="1" vertex="1">
           <mxGeometry x="480.25" y="680.5" width="68" height="68" as="geometry" />
         </mxCell>
-        <mxCell id="gmudOQDiAcLR5Y-OL8rV-29" value="" style="endArrow=none;dashed=1;html=1;rounded=0;startSize=60;strokeWidth=2;entryX=0.43;entryY=0.995;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#3399FF;" parent="1" edge="1">
+        <mxCell id="gmudOQDiAcLR5Y-OL8rV-31" value="&lt;div&gt;Azure private link&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="490" y="485" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-DRmpvns1d9b858OmcKD-2" value="&lt;div&gt;&lt;div&gt;Conduent Azure Tenant&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="200" y="610" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="iJfdNmBRLROansBH1dXQ-2" value="Conduent VNET" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="450" y="810" width="120" height="95" as="geometry" />
+        </mxCell>
+        <mxCell id="iJfdNmBRLROansBH1dXQ-3" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="iJfdNmBRLROansBH1dXQ-2">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="506" y="678.5" as="sourcePoint" />
-            <mxPoint x="503.70000000000005" y="295" as="targetPoint" />
+            <mxPoint x="215" y="815" as="sourcePoint" />
+            <mxPoint x="510" y="750" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="gmudOQDiAcLR5Y-OL8rV-31" value="&lt;div&gt;Azure Network Backbone&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="532.25" y="485" width="160" height="30" as="geometry" />
+        <mxCell id="iJfdNmBRLROansBH1dXQ-7" value="&lt;div&gt;&lt;div&gt;PostgreSQL Read Only Replica&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="320.25" y="699.5" width="160" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="gmudOQDiAcLR5Y-OL8rV-37" value="Near realtime replication" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;rotation=-90;" parent="1" vertex="1">
-          <mxGeometry x="375" y="485" width="200" height="30" as="geometry" />
+        <mxCell id="iJfdNmBRLROansBH1dXQ-8" value="HSE VNET" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="445" y="150" width="120" height="95" as="geometry" />
         </mxCell>
-        <mxCell id="-DRmpvns1d9b858OmcKD-2" value="&lt;div&gt;&lt;div&gt;Conduent Azure Tenant&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="200" y="610" width="160" height="30" as="geometry" />
+        <mxCell id="iJfdNmBRLROansBH1dXQ-9" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.364;entryY=0.066;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="iJfdNmBRLROansBH1dXQ-8" target="gmudOQDiAcLR5Y-OL8rV-23">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="385" as="sourcePoint" />
+            <mxPoint x="390" y="485" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iJfdNmBRLROansBH1dXQ-10" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/databases/SQL_Server.svg;" vertex="1" parent="1">
+          <mxGeometry x="647" y="670" width="68" height="68" as="geometry" />
+        </mxCell>
+        <mxCell id="iJfdNmBRLROansBH1dXQ-11" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.827;exitY=1.067;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="iJfdNmBRLROansBH1dXQ-12">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="608.1780000000001" y="714.002" as="sourcePoint" />
+            <mxPoint x="540" y="714.5411358609485" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iJfdNmBRLROansBH1dXQ-12" value="&lt;div&gt;&lt;div&gt;Near realtime repl.&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="505" y="680.5" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="iJfdNmBRLROansBH1dXQ-13" value="&lt;div&gt;&lt;div&gt;PostgreSQL Primary Server&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="565" y="748.5" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="iJfdNmBRLROansBH1dXQ-17" value="&lt;div&gt;Azure private link&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="380" y="775" width="160" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
