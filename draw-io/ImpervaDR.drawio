@@ -86,6 +86,28 @@
             <mxPoint x="223" y="488" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="8v8iQqjwZy26D1AJRffY-1" edge="1" parent="1" source="jpUwXe5OQpscbWeT5FLs-1" style="endArrow=classic;html=1;rounded=0;exitX=1.008;exitY=0.655;exitDx=0;exitDy=0;exitPerimeter=0;dashed=1;" target="jpUwXe5OQpscbWeT5FLs-19" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="120" y="260" />
+              <mxPoint x="280" y="260" />
+            </Array>
+            <mxPoint x="400" y="400" as="sourcePoint" />
+            <mxPoint x="450" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8v8iQqjwZy26D1AJRffY-2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="DR" vertex="1">
+          <mxGeometry height="30" width="60" x="170" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="8v8iQqjwZy26D1AJRffY-3" edge="1" parent="1" source="jpUwXe5OQpscbWeT5FLs-19" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.425;entryY=0.947;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;strokeColor=light-dark(#f41010, #ededed);" target="jpUwXe5OQpscbWeT5FLs-9" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="400" y="400" as="sourcePoint" />
+            <mxPoint x="450" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8v8iQqjwZy26D1AJRffY-4" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="DR/Why?&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="60" x="370" y="250" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
