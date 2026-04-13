@@ -1,0 +1,92 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36">
+  <diagram name="Page-1" id="QXqgQ4K1yGCNCiYNfq9o">
+    <mxGraphModel dx="1316" dy="731" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="jpUwXe5OQpscbWeT5FLs-1" parent="1" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/networking/DNS_Zones.svg;" value="" vertex="1">
+          <mxGeometry height="50" width="50" x="70" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="jpUwXe5OQpscbWeT5FLs-2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="okprod.maven.services.conduent.com" vertex="1">
+          <mxGeometry height="30" width="220" x="20" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="jpUwXe5OQpscbWeT5FLs-4" edge="1" parent="1" source="jpUwXe5OQpscbWeT5FLs-1" style="endArrow=classic;html=1;rounded=0;exitX=1.061;exitY=0.498;exitDx=0;exitDy=0;exitPerimeter=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="400" y="390" as="sourcePoint" />
+            <mxPoint x="180" y="165" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <UserObject label="&#xa;a2cau4s.ng.impervadns.net&lt;div style=&quot;forced-color-adjust: none;&quot;&gt;&lt;br style=&quot;forced-color-adjust: none; color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(236, 236, 236); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&#xa;&#xa;&lt;/div&gt;" id="jpUwXe5OQpscbWeT5FLs-7">
+          <mxCell parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;align=center;verticalAlign=top;" vertex="1">
+            <mxGeometry height="60" width="200" x="180" y="140" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="jpUwXe5OQpscbWeT5FLs-9" parent="1" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/networking/Firewalls.svg;" value="" vertex="1">
+          <mxGeometry height="60" width="71" x="444.5" y="135" as="geometry" />
+        </mxCell>
+        <mxCell id="jpUwXe5OQpscbWeT5FLs-10" edge="1" parent="1" source="jpUwXe5OQpscbWeT5FLs-7" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="170" y="380" as="sourcePoint" />
+            <mxPoint x="440" y="170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jpUwXe5OQpscbWeT5FLs-11" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="20.15.113.189" vertex="1">
+          <mxGeometry height="30" width="100" x="430" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="jpUwXe5OQpscbWeT5FLs-13" parent="1" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/networking/Application_Gateways.svg;" value="" vertex="1">
+          <mxGeometry height="64" width="64" x="640" y="135" as="geometry" />
+        </mxCell>
+        <mxCell id="jpUwXe5OQpscbWeT5FLs-14" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Prod App GW&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="110" x="630" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="jpUwXe5OQpscbWeT5FLs-15" edge="1" parent="1" source="jpUwXe5OQpscbWeT5FLs-9" style="endArrow=classic;html=1;rounded=0;exitX=0.999;exitY=0.562;exitDx=0;exitDy=0;exitPerimeter=0;" target="jpUwXe5OQpscbWeT5FLs-13" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="170" y="360" as="sourcePoint" />
+            <mxPoint x="220" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jpUwXe5OQpscbWeT5FLs-16" parent="1" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/networking/DNS_Zones.svg;" value="" vertex="1">
+          <mxGeometry height="50" width="50" x="73" y="318" as="geometry" />
+        </mxCell>
+        <mxCell id="jpUwXe5OQpscbWeT5FLs-17" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="okdr.maven.services.conduent.com" vertex="1">
+          <mxGeometry height="30" width="220" x="23" y="268" as="geometry" />
+        </mxCell>
+        <mxCell id="jpUwXe5OQpscbWeT5FLs-18" edge="1" parent="1" source="jpUwXe5OQpscbWeT5FLs-16" style="endArrow=classic;html=1;rounded=0;exitX=1.061;exitY=0.498;exitDx=0;exitDy=0;exitPerimeter=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="403" y="568" as="sourcePoint" />
+            <mxPoint x="183" y="343" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <UserObject label="&lt;div style=&quot;forced-color-adjust: none;&quot;&gt;9kz22r2.ng.impervadns.net&lt;/div&gt;" id="jpUwXe5OQpscbWeT5FLs-19">
+          <mxCell parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;align=center;verticalAlign=top;" vertex="1">
+            <mxGeometry height="60" width="200" x="183" y="318" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="jpUwXe5OQpscbWeT5FLs-20" parent="1" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/networking/Firewalls.svg;" value="" vertex="1">
+          <mxGeometry height="60" width="71" x="447.5" y="313" as="geometry" />
+        </mxCell>
+        <mxCell id="jpUwXe5OQpscbWeT5FLs-21" edge="1" parent="1" source="jpUwXe5OQpscbWeT5FLs-19" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="173" y="558" as="sourcePoint" />
+            <mxPoint x="443" y="348" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jpUwXe5OQpscbWeT5FLs-22" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="40.64.104.13" vertex="1">
+          <mxGeometry height="30" width="100" x="433" y="268" as="geometry" />
+        </mxCell>
+        <mxCell id="jpUwXe5OQpscbWeT5FLs-23" parent="1" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/networking/Application_Gateways.svg;" value="" vertex="1">
+          <mxGeometry height="64" width="64" x="643" y="313" as="geometry" />
+        </mxCell>
+        <mxCell id="jpUwXe5OQpscbWeT5FLs-24" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;div&gt;DR App GW&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="110" x="633" y="268" as="geometry" />
+        </mxCell>
+        <mxCell id="jpUwXe5OQpscbWeT5FLs-25" edge="1" parent="1" source="jpUwXe5OQpscbWeT5FLs-20" style="endArrow=classic;html=1;rounded=0;exitX=0.999;exitY=0.562;exitDx=0;exitDy=0;exitPerimeter=0;" target="jpUwXe5OQpscbWeT5FLs-23" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="173" y="538" as="sourcePoint" />
+            <mxPoint x="223" y="488" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
